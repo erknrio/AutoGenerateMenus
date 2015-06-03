@@ -1,0 +1,25 @@
+{
+    "title": "Autogenerate Menus",
+    "name": "autogenerate-menus",
+    "main": "php/generateMenu.php",
+    "description": "Generacion de menus dinamicamente con php y mysql",
+    "version": "0.1",
+    "author": "erknrio (https://github.com/erknrio)",
+    "homepage": "https://github.com/erknrio/AutoGenerateMenus",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/erknrio/ariane-theme.git"
+    },
+    "license": "MIT",
+    "i18n": ["es"],
+    "package-i18n": {
+        "es": {
+            "description": "Generacion de menus dinamicamente con php y mysql""
+        }
+    },
+    "dependencies": {
+        "bootstrap": "3.3.4",
+        "bootstrap-submenu": "1.2.13"
+    },
+    "keywords": ["autogenerate, menus, autogenerate menus, navbar, barra navegacion, menus autogenerados"]
+}
